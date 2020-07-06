@@ -1,7 +1,9 @@
-# project Miles | Team 8 Project 1 (Super Rough First Draft)
+# project Miles | Team 8 Project 1 
+
+![Screenshot](assets/images/ss-mm.PNG)
 
 Introducing project Miles, a game especially for teens featuring your favorite Marvel Avengers, designed to help you live a healthier life in a fun way that works for you and your friends.  This README file is designed to introduce you to key features of version 1 and our plans for future versions.
-
+____
 ## Getting Started
 
 You can view a demo of project Miles here: 
@@ -16,27 +18,30 @@ On your first visit, you'll choose a Marvel Avenger as your Avatar and alter-ego
 ### project Miles Evolving
 
 In future versions, we plan to add a leaderboard of friends nad local users, more challenges and activities through which you can earn points, and ways to share your activities on your favorite social media.
+__________
 
-## Built With
+## Gif Example & [Deployed Link](https://gabesucich.github.io/Project1_CGJK/)
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [jQuery]
-* [Materialize]
-* [Zomato]
-* [TomTom]
+![Screenshot](assets/images/sr-pm.gif)
 
-## Deployed Link
+__________________
+#### Built With
 
-* [project Miles demo](https://gabesucich.github.io/Project1_CGJK/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) / [jQuery](https://jquery.com/)
+* [Materialize](https://materializecss.com/)
 
-## Authors
-**Gabriel Sucich**
-**Colin Whitcomb**
-**Jen Jayme** [Portfolio Site](www.jaymedev.com) | [Github](https://github.com/jenjayme) | [LinkedIn](https://www.linkedin.com/jenjayme)
+#### APIs Include:
+* [Zomato](https://developers.zomato.com/api) / [TomTom](https://developer.tomtom.com/)
+ / [OpenRoute](https://openrouteservice.org/)
+_____
+### Authors
+* **Gabriel Sucich** [Github](https://github.com/GabeSucich) | [LinkedIn](https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/)
+* **Colin Whitcomb** [Github](https://github.com/Colin-Whitcomb) | [LinkedIn](https://www.linkedin.com/in/colin-whitcomb-b808301a6/)
+* **Jen Jayme** [Portfolio Site](www.jaymedev.com) | [Github](https://github.com/jenjayme) | [LinkedIn](https://www.linkedin.com/jenjayme)
 
-## Acknowledgments
+### Acknowledgments
 * Credit for key ideas goes to Kaitlin Elisabeth Hulsy.
 * Thanks to Jerome Chenette for referring this page for work.
 * Special thanks to Fred Rudolfo for critical guidance and contributions during the process.
+___
