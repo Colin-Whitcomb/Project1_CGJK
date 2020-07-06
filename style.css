@@ -68,6 +68,7 @@ p {
     background-color: #93a6c9;
     font-family: 'Quicksand', sans-serif;
     color: black;
+    margin-bottom: 2%;
 }
 
 
@@ -75,6 +76,12 @@ p {
     display: block;
     cursor: pointer;
     color: black;
+}
+
+#tip {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color:white;
 }
 
 .card:hover {
@@ -177,15 +184,15 @@ input .address-input .input-field {
 }
 
 #initial-prompt {
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 #activity2 {
-    margin-top: 22%;
+    margin-top: 20%;
 }
 
 #eat-div {
-    margin-top: 100px;
+    margin-top: 20%;
 }
 
 #meal-submit {
@@ -219,7 +226,7 @@ input .address-input .input-field {
 }
 
 #food-choice-confirm {
-    margin-top: 200px;
+    margin-top: 20%;
     text-align: center;
 }
 
@@ -227,8 +234,10 @@ input .address-input .input-field {
     margin-right: 5%;
 }
 
-/* End Gabe's additions */
 
+#sideBar {
+    height: 100%;
+}
 
 .sidenav {
     background-color: #353030;
@@ -237,12 +246,13 @@ input .address-input .input-field {
 
 #new-user {
     text-align: center;
+    margin-top: 50px;
 }
 
 
 #profile-img {
     width: 80%;
-    margin-top: 70%;
+    margin-top: 60%;
     margin-left: 12%;
     border-radius: 50%;
 }
@@ -266,13 +276,12 @@ input .address-input .input-field {
 }
 
 .welcome {
-    /* color: white; */
     font-family: 'Quicksand', sans-serif;
     background-color: transparent;
     text-shadow: white;
+
 }
 
-/* Colin's work station */
 #btn-home  {
     margin-left: auto;
     margin-right: auto;
@@ -284,7 +293,7 @@ input .address-input .input-field {
 }
 
 #address-input {
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 #confirmationPage {
@@ -306,12 +315,29 @@ input .address-input .input-field {
 }
 
 .wrapper {
-    height: 60vh;
+    height: 90vh;
     margin-top: 15px;
+    overflow: scroll;
 }
 
 #greeting {
     font-size: 5vw;
+}
+
+.profile-pic {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    float: left !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.team-mem-name {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -367,7 +393,6 @@ input .address-input .input-field {
 
   }
 
-/*End Colin's work station */
 
 /* font-family: 'Cabin', sans-serif;
 font-family: 'Inconsolata', monospace;
