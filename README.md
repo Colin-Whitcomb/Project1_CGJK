@@ -25,6 +25,7 @@ __________
 ![Screenshot](assets/images/sr-pm.gif)
 
 __________________
+<<<<<<< HEAD
 #### Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -39,9 +40,36 @@ _____
 * **Gabriel Sucich** [Github](https://github.com/GabeSucich) | [LinkedIn](https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/)
 * **Colin Whitcomb** [Github](https://github.com/Colin-Whitcomb) | [LinkedIn](https://www.linkedin.com/in/colin-whitcomb-b808301a6/)
 * **Jen Jayme** [Portfolio Site](www.jaymedev.com) | [Github](https://github.com/jenjayme) | [LinkedIn](https://www.linkedin.com/jenjayme)
+=======
+
+#### Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) / [jQuery](https://jquery.com/)
+* [Materialize](https://materializecss.com/)
+* [jQuery](https://jquery.com/)
+* [Tabulator](http://tabulator.info/)
+* [Taggbox](https://taggbox.com/)
+
+
+#### APIs Include:
+* [Zomato](https://developers.zomato.com/api) / [TomTom](https://developer.tomtom.com/)
+ / [OpenRoute](https://openrouteservice.org/)
+_____
+
+### Authors
+* **Gabriel Sucich** [Github](https://github.com/GabeSucich) | [LinkedIn](https://www.linkedin.com/in/gabriel-sucich-6a28a71a8/)
+* **Colin Whitcomb** [Github](https://github.com/Colin-Whitcomb) | [LinkedIn](https://www.linkedin.com/in/colin-whitcomb-b808301a6/)
+* **Jen Jayme** [Portfolio Site](www.jaymedev.com) | [Github](https://github.com/jenjayme) | [LinkedIn](https://www.linkedin.com/jenjayme)
+
+>>>>>>> f19e385cd0ba3c3778238a73d0e33648ee3e1827
 
 ### Acknowledgments
 * Credit for key ideas goes to Kaitlin Elisabeth Hulsy.
 * Thanks to Jerome Chenette for referring this page for work.
 * Special thanks to Fred Rudolfo for critical guidance and contributions during the process.
+<<<<<<< HEAD
 ___
+=======
+___
+>>>>>>> f19e385cd0ba3c3778238a73d0e33648ee3e1827
