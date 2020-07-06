@@ -187,9 +187,9 @@ function setUp() {
         var street_num = $('#startNumber2').val();
         var street_name = $('#startStreet2').val();
         var city = $('#startCity2').val();
-    
+
         if (street_num && street_name && city) {
-    
+
             var address = {
                 locStreetNumber: street_num,
                 locStreetName: street_name,
@@ -306,10 +306,13 @@ function find_restaurants(address_object) {
                 'X-Zomato-API-Key': '1dc29c917607ec14f7f9f5309c721b3c'
             }
         }).then(function (response) {
+            console.log(response)
             var tableData = []
             var index = 1;
+            var array = response.restaurants
             for (const place of response.restaurants) {
 
+               
                 var restaurant_lat = place.restaurant.location.latitude;
                 var restaurant_lon = place.restaurant.location.longitude;
                 var openroute_url = 'https://api.openrouteservice.org/v2/directions/foot-walking?api_key=5b3ce3597851110001cf6248664ece6aa70a4c7dbf8aa68951f471c3&start=' + current_lon + ',' + current_lat + '&end=' + restaurant_lon + ',' + restaurant_lat
@@ -328,7 +331,7 @@ function find_restaurants(address_object) {
                     })
                     index += 1
 
-                    if (index === 10) {
+                    if (index >= array.length) {
                         screen_switcher('food-choices')
                         var header = $('<h4>');
                         var tip = $('<h6>')
@@ -398,7 +401,7 @@ function doubleAddressRoute(addressObj1, addressObj2) {
         var streetName2 = addressObj2.endName;
         var city2 = addressObj2.endCity;
 
-        $.ajax({ 
+        $.ajax({
             url: 'https://api.tomtom.com/search/2/structuredGeocode.JSON?key=L7UIPFqhhWosaSn7oAMjfGZGsRJ9EnPU&countryCode=US&streetNumber=' + streetNumber2 + '&streetName=' + streetName2 + '&municipality=' + city2,
             method: 'GET'
 
