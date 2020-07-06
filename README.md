@@ -1,6 +1,6 @@
 # project Miles | Team 8 Project 1 
 
-![Screenshot](/assets/images/ssmm.PNG)
+![Screenshot](images/ssmm.PNG)
 
 Introducing project Miles, a game especially for teens featuring your favorite Marvel Avengers, designed to help you live a healthier life in a fun way that works for you and your friends.  This README file is designed to introduce you to key features of version 1 and our plans for future versions.
 ____
@@ -22,7 +22,7 @@ __________
 
 ## Gif Example & [Deployed Link](https://gabesucich.github.io/Project1_CGJK/)
 
-![Screenshot](assets/images/srpm.GIF)
+![Screenshot](images/srpm.GIF)
 
 __________________
 
