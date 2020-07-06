@@ -51,5 +51,4 @@ _____
 * Credit for key ideas goes to Kaitlin Elisabeth Hulsy.
 * Thanks to Jerome Chenette for referring this page for work.
 * Special thanks to Fred Rudolfo for critical guidance and contributions during the process.
-
 ___
